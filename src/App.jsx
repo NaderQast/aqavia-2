@@ -50,7 +50,7 @@ function App() {
         />
 
         <Route
-          path="/"
+          path="/aqavia-2"
           element={
             <ProtectedRoute role={fakeUserRole} allowed={["user", "admin"]}>
               <UserLayout>
